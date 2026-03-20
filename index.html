@@ -515,9 +515,9 @@
       window.addEventListener("scroll", () => {
         const y = scrollY;
         const t = document.querySelector(".hero-title");
-        if (t) t.style.transform = `translateY(${y * 0.22}px)`;
+        if (t) t.style.transform = `translateY(${y * 0.08}px)`;
         const d = document.querySelector(".hero-desc");
-        if (d) d.style.transform = `translateY(${y * 0.1}px)`;
+        if (d) d.style.transform = `translateY(${y * 0.15}px)`;
         const m = document.querySelector(".marquee-wrap");
         if (m) m.style.transform = `translateY(calc(-50% + ${y * 0.15}px))`;
       });
