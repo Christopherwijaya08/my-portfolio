@@ -197,11 +197,10 @@ nav.scrolled {
 /* ── HERO ── */
 .hero {
   min-height: 100vh;
-  padding: 0 5vw;
+  padding: 7rem 5vw 6rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-bottom: 6rem;
   position: relative;
   overflow: hidden;
 }
@@ -310,7 +309,7 @@ nav.scrolled {
 
 .hero-title {
   font-family: var(--ff-display);
-  font-size: clamp(3rem, 15vw, 13rem);
+  font-size: clamp(2.5rem, 10vw, 9rem);
   line-height: 0.9;
   letter-spacing: 0.02em;
   position: relative;
@@ -1255,7 +1254,7 @@ footer {
     display: none;
   }
   .hero {
-    padding: 0 1.5rem 4rem;
+    padding: 5rem 1.5rem 4rem;
   }
   .hero-bottom {
     flex-direction: column;
@@ -1313,5 +1312,18 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+  }
+}
+
+@media (pointer: coarse) {
+  body,
+  .btn,
+  .skill-pill,
+  .exp-item,
+  .footer-up {
+    cursor: auto;
+  }
+  .cur {
+    display: none;
   }
 }
